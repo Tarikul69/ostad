@@ -13,6 +13,7 @@ import 'package:ostad/navigation.dart';
 import 'package:ostad/card.dart';
 import 'package:ostad/circulerprogress.dart';
 import 'package:ostad/aspectratio.dart';
+import 'package:ostad/stateful.dart';
 
 void main()
 {
@@ -26,7 +27,7 @@ void main()
    //runApp(listview());
    //runApp(tabbad());
    runApp(MaterialApp(
-       home: aspectratio()));
+       home: stateful()));
 
 }
 

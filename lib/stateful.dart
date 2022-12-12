@@ -28,16 +28,19 @@ class _statefulState extends State<stateful> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.grey,
       appBar: AppBar(title: Text('App'),),
       body: Center(
-        child: Text('Cont ${widget.countNumber}'),
+        child: Text('Cont ${widget.countNumber}', style: TextStyle(fontSize: 24, backgroundColor: Colors.cyan),),
       ),
+
       floatingActionButton: FloatingActionButton(child: Icon(Icons.add),onPressed: (){
         setState(() {
           print("setState");
           widget.countNumber = widget.countNumber+1;
         });
-      },),
+      },
+      ),
     );
   }
 }
