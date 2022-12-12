@@ -18,6 +18,7 @@ TextStyle Headline(context){
     //Desktop
     return TextStyle(
       color: Colors.green,
+      fontSize: 34,
 
     );
   }
