@@ -36,7 +36,7 @@ class _statefulState extends State<stateful> {
 
       floatingActionButton: FloatingActionButton(child: Icon(Icons.add),onPressed: (){
         setState(() {
-          //print("setState");
+          print("setState");
           widget.countNumber = widget.countNumber+1;
         });
       },
