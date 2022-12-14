@@ -14,6 +14,7 @@ import 'package:ostad/card.dart';
 import 'package:ostad/circulerprogress.dart';
 import 'package:ostad/aspectratio.dart';
 import 'package:ostad/stateful.dart';
+import 'package:ostad/sumapp.dart';
 
 void main()
 {
@@ -27,7 +28,7 @@ void main()
    //runApp(listview());
    //runApp(tabbad());
    runApp(MaterialApp(
-       home: stateful()));
+       home: sumapp()));
 
 }
 
