@@ -70,6 +70,7 @@ class _MyHomePageState extends State<MyHomePage> {
             }, decoration: AppInputStyle("Third Number"),),
             SizedBox(height: 20,),
             Container(
+
               width: double.infinity,
               child: ElevatedButton(
                 style: AppButtonStyle(),
