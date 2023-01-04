@@ -16,6 +16,7 @@ import 'package:ostad/aspectratio.dart';
 import 'package:ostad/stateful.dart';
 import 'package:ostad/sumapp.dart';
 import 'package:dart_ping/dart_ping.dart';
+import 'package:ostad/todo.dart';
 
 
 void main()
@@ -29,6 +30,8 @@ void main()
    //runApp(form1());
    //runApp(listview());
    //runApp(tabbad());
-   runApp(MaterialApp(home: sumapp()));
+   //runApp(MaterialApp(home: sumapp()));
+   runApp(MaterialApp(home: todo()));
+
 
 }

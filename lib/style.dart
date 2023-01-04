@@ -51,3 +51,11 @@ InputDecoration AppInputStyle(label)
 
   );
  }
+
+
+ InputDecoration AppInutDecoration()
+ {
+   return InputDecoration(
+     contentPadding: EdgeInsets.fromLTRB(70, 10, 10, 20),
+   );
+ }
